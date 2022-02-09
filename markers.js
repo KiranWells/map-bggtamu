@@ -31,7 +31,8 @@ var MAPCRAFTER_MARKERS = [
 					// "iconSize" : [32, 32]
 				// },
 				// more markers:
-				{"pos" : [-244, 22, 65], "title" : "Thomas"},
+				{"pos" : [-981, 473, 69], "title" : "Thomas"},
+				// {"pos" : [-244, 22, 65], "title" : "Thomas"},
 				{"pos" : [-334, -194, 64], "title" : "Logan"},
 				{"pos" : [-968, 511, 69], "title" : "John"},
 				{"pos" : [-1285, -1284, 156], "title" : "Kit"},
@@ -42,20 +43,11 @@ var MAPCRAFTER_MARKERS = [
 				{"pos" : [-195, -512, 70], "title" : "Sterling"},
 				{"pos" : [-387, 166, 65], "title" : "Sand"},
 			],
+			"new_world" : [
+			  {"pos" : [236, 385, 96], "title" : "Starter Base"},
+			],
 		},
 	},
-	{
-  	"id" : "spawn",
-  	"name" : "Spawn",
-  	"icon" : "spawn.png",
-  	"iconSize" : [32, 32],
-  	"showDefault" : true,
-  	"markers" : {
-  		"world" : [
-  			{"pos" : [-193, -83, 64], "title" : "World Spawn"},
-  		],
-  	},
-  },
 	{
   	"id" : "farms",
   	"name" : "Farms",
@@ -70,6 +62,24 @@ var MAPCRAFTER_MARKERS = [
   			{"pos" : [2248, 1815, 64], "title" : "Villager Hall and Melon/Pumpkin Farm"},
   			{"pos" : [2971, -61, 67], "title" : "Wheat/Carrot/Potato Farm"},
   			{"pos" : [-275, -309, 64], "title" : "Sugar Cane Farm"},
+  			{"pos" : [2309, 1109, 71], "title" : "Wheat/Cow/Sheep Farm"},
+  		],
+  	},
+  },
+	{
+  	"id" : "misc",
+  	"name" : "Misc",
+  	"icon" : "spawn.png",
+  	"iconSize" : [32, 32],
+  	"showDefault" : false,
+  	"markers" : {
+  		"world" : [
+  			{"pos" : [-193, -83, 64], "title" : "World Spawn"},
+  			{"pos" : [4622, -200, 64], "title" : "End Portal"},
+  			{"pos" : [20, 643, 64], "title" : "Witch Hut"},
+  		],
+  		"new_world" : [
+  			{"pos" : [0, 0, 96], "title" : "World Spawn"},
   		],
   	},
   },
